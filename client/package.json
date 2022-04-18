@@ -1,0 +1,12 @@
+{
+  "name": "lsp-smarty-client",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vscode-languageclient": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.66.0"
+  }
+}

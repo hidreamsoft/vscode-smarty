@@ -9,6 +9,9 @@
     "categories": [
         "Programming Languages"
     ],
+    "activationEvents": [
+        "onLanguage:smarty"
+    ],
     "contributes": {
         "languages": [{
             "id": "smarty",
@@ -20,6 +23,12 @@
             "language": "smarty",
             "scopeName": "source.html",
             "path": "./syntaxes/smarty.tmLanguage.json"
-        }]
+        }],
+        "configuration":[
+            {
+                "title": "",
+                "properties": {}
+            }
+        ]
     }
 }
