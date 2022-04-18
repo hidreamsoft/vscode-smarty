@@ -1,0 +1,25 @@
+{
+    "name": "vscode-smarty",
+    "displayName": "vscode-smarty",
+    "description": "smarty template plugin for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "smarty",
+            "aliases": ["", "smarty"],
+            "extensions": [".tpl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "smarty",
+            "scopeName": "source.html",
+            "path": "./syntaxes/smarty.tmLanguage.json"
+        }]
+    }
+}
